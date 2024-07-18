@@ -35,7 +35,7 @@ public class eCommerce_tc_3 extends AndroidBaseTest {
 	@Test(groups = {"Smoke"})
 	public void zlogin() throws InterruptedException {
 
-		fp.setNameField("Kanthi");
+		fp.setNameField("Kalavathi");
 		fp.selectGender("Female");
 		fp.selectCountry("Australia");
 		fp.clickLetsShopButton();
