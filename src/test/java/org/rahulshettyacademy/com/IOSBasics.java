@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class IOSBasics extends iOSBaseTest {
 
-	@Test(groups = {"Smoke"})
+	@Test(groups = { "Smoke" })
 	public void IOSBasicTest() throws InterruptedException {
 
 		AlertViewPage alert = catalog.clickAlertView();
@@ -19,7 +19,7 @@ public class IOSBasics extends iOSBaseTest {
 		System.out.println("The message is :" + message);
 	}
 
-	@Test(groups = {"Regression"})
+	@Test(groups = { "Regression" })
 	public void IOSLongPress() throws InterruptedException {
 
 		StepperPage step = catalog.clickStepperView();
@@ -27,7 +27,7 @@ public class IOSBasics extends iOSBaseTest {
 
 	}
 
-	@Test(groups = {"Smoke"})
+	@Test(groups = { "Smoke" })
 	public void IOSScroll() throws InterruptedException {
 
 		PickerViewPage pvp = catalog.clickPickerView();
@@ -40,12 +40,20 @@ public class IOSBasics extends iOSBaseTest {
 
 	}
 
-	@Test(groups = {"Regression"})
+	@Test(groups = { "Regression" })
 	public void IOSScrollDown() throws InterruptedException {
 
 		catalog.clickWebView();
 		Thread.sleep(10000);
 
+	}
+
+	@Test(groups = { "Regression" })
+	public void IOSTest() throws InterruptedException {
+
+		AlertViewPage alert = catalog.clickAlertView();
+		String message = alert.alertViewFunction("Shwetha GN");
+		System.out.println("The message is :" + message);
 	}
 
 }
