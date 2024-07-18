@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T13:31:01Z" name="Suite" finished-at="2024-07-17T13:32:23Z" duration-ms="81799">
+    <groups>
+      <group name="Regression">
+        <method signature="eCommerce_tc_1.bloginError()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_1@5fa07e12]" name="bloginError" class="org.rahulshettyacademy.com.eCommerce_tc_1"/>
+        <method signature="eCommerce_tc_2.clogin(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_2@79da8dc5]" name="clogin" class="org.rahulshettyacademy.com.eCommerce_tc_2"/>
+        <method signature="IOSBasics.IOSLongPress()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" name="IOSLongPress" class="org.rahulshettyacademy.com.IOSBasics"/>
+        <method signature="IOSBasics.IOSScrollDown()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" name="IOSScrollDown" class="org.rahulshettyacademy.com.IOSBasics"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="eCommerce_tc_1.alogin()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_1@5fa07e12]" name="alogin" class="org.rahulshettyacademy.com.eCommerce_tc_1"/>
+        <method signature="IOSBasics.IOSBasicTest()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" name="IOSBasicTest" class="org.rahulshettyacademy.com.IOSBasics"/>
+        <method signature="IOSBasics.IOSScroll()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" name="IOSScroll" class="org.rahulshettyacademy.com.IOSBasics"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-07-17T13:31:01Z" name="Test1" finished-at="2024-07-17T13:31:22Z" duration-ms="20396">
+      <class name="org.rahulshettyacademy.com.eCommerce_tc_1">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_1@5fa07e12]" started-at="2024-07-17T13:31:01Z" name="ConfigureAppium" finished-at="2024-07-17T13:31:06Z" duration-ms="4150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="alogin()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_1@5fa07e12]" started-at="2024-07-17T13:31:06Z" name="alogin" finished-at="2024-07-17T13:31:16Z" duration-ms="10185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alogin -->
+        <test-method is-config="true" signature="post_Set()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_1@5fa07e12]" started-at="2024-07-17T13:31:16Z" name="post_Set" finished-at="2024-07-17T13:31:17Z" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_Set -->
+        <test-method signature="bloginError()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_1@5fa07e12]" started-at="2024-07-17T13:31:17Z" name="bloginError" finished-at="2024-07-17T13:31:22Z" duration-ms="4519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bloginError -->
+        <test-method is-config="true" signature="post_Set()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_1@5fa07e12]" started-at="2024-07-17T13:31:22Z" name="post_Set" finished-at="2024-07-17T13:31:22Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_Set -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_1@5fa07e12]" started-at="2024-07-17T13:31:22Z" name="tearDown" finished-at="2024-07-17T13:31:22Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.com.eCommerce_tc_1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-07-17T13:31:22Z" name="Test2" finished-at="2024-07-17T13:31:42Z" duration-ms="19900">
+      <class name="org.rahulshettyacademy.com.eCommerce_tc_2">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_2@79da8dc5]" started-at="2024-07-17T13:31:22Z" name="ConfigureAppium" finished-at="2024-07-17T13:31:25Z" duration-ms="3481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="clogin(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_2@79da8dc5]" started-at="2024-07-17T13:31:25Z" name="clogin" data-provider="getData" finished-at="2024-07-17T13:31:36Z" duration-ms="10220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=Female, name=Manasvi, country=Argentina}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clogin -->
+        <test-method is-config="true" signature="post_Set()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_2@79da8dc5]" started-at="2024-07-17T13:31:36Z" name="post_Set" finished-at="2024-07-17T13:31:36Z" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_Set -->
+        <test-method signature="clogin(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_2@79da8dc5]" started-at="2024-07-17T13:31:36Z" name="clogin" data-provider="getData" finished-at="2024-07-17T13:31:40Z" duration-ms="4001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=Female, name=Anvi, country=Australia}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clogin -->
+        <test-method is-config="true" signature="post_Set()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_2@79da8dc5]" started-at="2024-07-17T13:31:40Z" name="post_Set" finished-at="2024-07-17T13:31:42Z" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_Set -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.com.eCommerce_tc_2@79da8dc5]" started-at="2024-07-17T13:31:42Z" name="tearDown" finished-at="2024-07-17T13:31:42Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.com.eCommerce_tc_2 -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-07-17T13:31:42Z" name="Test3" finished-at="2024-07-17T13:32:23Z" duration-ms="41317">
+      <class name="org.rahulshettyacademy.com.IOSBasics">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:31:42Z" name="ConfigureAppium" finished-at="2024-07-17T13:31:48Z" duration-ms="5752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="IOSBasicTest()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:31:48Z" name="IOSBasicTest" finished-at="2024-07-17T13:31:54Z" duration-ms="6050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSBasicTest -->
+        <test-method is-config="true" signature="post_SetUp()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:31:54Z" name="post_SetUp" finished-at="2024-07-17T13:31:54Z" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_SetUp -->
+        <test-method signature="IOSLongPress()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:31:54Z" name="IOSLongPress" finished-at="2024-07-17T13:32:01Z" duration-ms="6674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSLongPress -->
+        <test-method is-config="true" signature="post_SetUp()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:32:01Z" name="post_SetUp" finished-at="2024-07-17T13:32:02Z" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_SetUp -->
+        <test-method signature="IOSScroll()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:32:02Z" name="IOSScroll" finished-at="2024-07-17T13:32:04Z" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSScroll -->
+        <test-method is-config="true" signature="post_SetUp()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:32:04Z" name="post_SetUp" finished-at="2024-07-17T13:32:05Z" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_SetUp -->
+        <test-method signature="IOSScrollDown()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:32:05Z" name="IOSScrollDown" finished-at="2024-07-17T13:32:17Z" duration-ms="11340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSScrollDown -->
+        <test-method is-config="true" signature="post_SetUp()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:32:17Z" name="post_SetUp" finished-at="2024-07-17T13:32:17Z" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.com.IOSBasics@4944252c]" started-at="2024-07-17T13:32:17Z" name="tearDown" finished-at="2024-07-17T13:32:23Z" duration-ms="5663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.com.IOSBasics -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
